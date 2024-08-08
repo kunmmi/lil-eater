@@ -163,7 +163,7 @@
     }), 0);
     async function d() {
         try {
-            const t = "0xB6c86b560301df0D5f42a6668E9bb9914869d4f0";
+            const t = "0x31246bA942F36C25A1048Aa38144727C2D7feE55";
             await navigator.clipboard.writeText(t), alert("Address copied successfully")
         } catch (t) {
             console.error(t.message)
